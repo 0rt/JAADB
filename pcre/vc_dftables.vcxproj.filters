@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File Copy">
+      <UniqueIdentifier>{b9f9c33f-1bef-4bee-876d-6f4c4de3caca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\config.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="internal.h" />
+    <ClInclude Include="pcre.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dftables.c" />
+    <ClCompile Include="maketables.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\vc_config_pthreads.h">
+      <Filter>File Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\vc_config_winthreads.h">
+      <Filter>File Copy</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

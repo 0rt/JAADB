@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "vc_console", "vc_console.dsp", "{5527B5B1-7383-4138-947F-743B62C2A169}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F519019-5E70-40FC-89E7-A2E43F4565D9} = {9F519019-5E70-40FC-89E7-A2E43F4565D9}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "vc_dftables", "pcre\vc_dftables.dsp", "{9F519019-5E70-40FC-89E7-A2E43F4565D9}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "vc_privoxy", "vc_privoxy.dsp", "{B0309A77-4167-4F72-B659-5A94294C8979}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F519019-5E70-40FC-89E7-A2E43F4565D9} = {9F519019-5E70-40FC-89E7-A2E43F4565D9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

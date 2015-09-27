@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="JunkBuster">
+      <UniqueIdentifier>{f7af93e1-164a-4bc7-992a-342320801e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{c6012915-b118-486e-a721-305e414a7af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCRE">
+      <UniqueIdentifier>{1f7d5265-0c04-4bc7-a27b-af600e3cfc3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCRS">
+      <UniqueIdentifier>{6a6ecbed-dfda-4d77-8e32-657fd1cc2af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets">
+      <UniqueIdentifier>{174d4e87-1063-4f1c-9f59-533954f3302f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{b179ab5c-4c35-4ad0-bb7c-3f0f27d84e70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="actionlist.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="actions.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="cgi.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="cgiedit.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="cgisimple.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="deanimate.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="errlog.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="filters.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="jcc.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="loadcfg.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="parsers.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="project.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="urlmatch.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="cygwin.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="pcre\config.h">
+      <Filter>PCRE</Filter>
+    </ClInclude>
+    <ClInclude Include="pcre\internal.h">
+      <Filter>PCRE</Filter>
+    </ClInclude>
+    <ClInclude Include="pcre\pcre.h">
+      <Filter>PCRE</Filter>
+    </ClInclude>
+    <ClInclude Include="pcre\pcreposix.h">
+      <Filter>PCRE</Filter>
+    </ClInclude>
+    <ClInclude Include="pcrs.h">
+      <Filter>PCRS</Filter>
+    </ClInclude>
+    <ClInclude Include="gateway.h">
+      <Filter>Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="jbsockets.h">
+      <Filter>Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="encode.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="miscutil.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ssplit.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="actions.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="cgi.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="cgiedit.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="cgisimple.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="deanimate.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="errlog.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="filters.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="jcc.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="loadcfg.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="parsers.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="urlmatch.c">
+      <Filter>JunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="win32.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pcre\chartables.c">
+      <Filter>PCRE</Filter>
+    </ClCompile>
+    <ClCompile Include="pcre\get.c">
+      <Filter>PCRE</Filter>
+    </ClCompile>
+    <ClCompile Include="pcre\maketables.c">
+      <Filter>PCRE</Filter>
+    </ClCompile>
+    <ClCompile Include="pcre\pcre.c">
+      <Filter>PCRE</Filter>
+    </ClCompile>
+    <ClCompile Include="pcre\pcreposix.c">
+      <Filter>PCRE</Filter>
+    </ClCompile>
+    <ClCompile Include="pcre\study.c">
+      <Filter>PCRE</Filter>
+    </ClCompile>
+    <ClCompile Include="pcrs.c">
+      <Filter>PCRS</Filter>
+    </ClCompile>
+    <ClCompile Include="gateway.c">
+      <Filter>Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="jbsockets.c">
+      <Filter>Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="encode.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="miscutil.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ssplit.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

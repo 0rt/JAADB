@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vc_console", "vc_console.vcxproj", "{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vc_dftables", "pcre\vc_dftables.vcxproj", "{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vc_privoxy", "vc_privoxy.vcxproj", "{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug with Win32 threads|x86 = Debug with Win32 threads|x86
+		Debug|x86 = Debug|x86
+		Release with Win32 threads|x86 = Release with Win32 threads|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Debug with Win32 threads|x86.ActiveCfg = Debug with Win32 threads|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Debug with Win32 threads|x86.Build.0 = Debug with Win32 threads|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Debug|x86.Build.0 = Debug|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Release with Win32 threads|x86.ActiveCfg = Release with Win32 threads|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Release with Win32 threads|x86.Build.0 = Release with Win32 threads|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Release|x86.ActiveCfg = Release|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Release|x86.Build.0 = Release|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Template|x86.ActiveCfg = Release|Win32
+		{1434AD55-2546-4A35-A0CF-38AC2A3A25FB}.Template|x86.Build.0 = Release|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Debug with Win32 threads|x86.ActiveCfg = Debug with Win32 threads|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Debug with Win32 threads|x86.Build.0 = Debug with Win32 threads|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Debug|x86.ActiveCfg = Debug|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Debug|x86.Build.0 = Debug|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Release with Win32 threads|x86.ActiveCfg = Release with Win32 threads|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Release with Win32 threads|x86.Build.0 = Release with Win32 threads|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Release|x86.ActiveCfg = Release|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Release|x86.Build.0 = Release|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Template|x86.ActiveCfg = Template|Win32
+		{A79B14E1-8A31-4C01-8F36-4B62FCF81C40}.Template|x86.Build.0 = Template|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Debug with Win32 threads|x86.ActiveCfg = Debug with Win32 threads|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Debug with Win32 threads|x86.Build.0 = Debug with Win32 threads|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Debug|x86.ActiveCfg = Debug|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Debug|x86.Build.0 = Debug|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Release with Win32 threads|x86.ActiveCfg = Release with Win32 threads|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Release with Win32 threads|x86.Build.0 = Release with Win32 threads|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Release|x86.ActiveCfg = Release|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Release|x86.Build.0 = Release|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Template|x86.ActiveCfg = Template|Win32
+		{48F7FBC0-EC7E-4543-B86C-6DA3F777DA92}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
