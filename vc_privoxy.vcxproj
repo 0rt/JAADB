@@ -79,6 +79,8 @@
     <OutDir>.\vc_release\</OutDir>
     <IntDir>.\vc_release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>d:\code\Proxydomo\zlib\x86\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\code\Proxydomo\zlib\x86\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>.\vc_debug\</OutDir>
@@ -94,6 +96,8 @@
     <OutDir>.\vc_release_winthr\</OutDir>
     <IntDir>.\vc_release_winthr\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>d:\code\Proxydomo\zlib\x86\include;$(IncludePath)</IncludePath>
+    <LibraryPath>d:\code\Proxydomo\zlib\x86\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -292,9 +296,11 @@
     <ClInclude Include="w32svrapi.h" />
     <ClInclude Include="w32taskbar.h" />
     <ClInclude Include="win32.h" />
+    <ClInclude Include="adb_style.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="actions.c" />
+    <ClCompile Include="adb_style.c" />
     <ClCompile Include="cgi.c" />
     <ClCompile Include="cgiedit.c" />
     <ClCompile Include="cgisimple.c" />

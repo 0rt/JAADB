@@ -74,6 +74,9 @@
 #define timegm _mkgmtime
 #define mkstemp _mktemp
 #endif
+
+#define FEATURE_ZLIB 1
+
 /*
  * Regular expression matching for URLs.  (Highly recommended).
  * If neither of these are defined then you can ony use prefix matching.

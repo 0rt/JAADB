@@ -55,6 +55,7 @@ const char parsers_rcs[] = "$Id: parsers.c,v 1.298 2015/01/24 16:41:51 fabiankei
 
 #ifdef FEATURE_ZLIB
 #include <zlib.h>
+#pragma comment(lib, "zlib.lib")
 
 #define GZIP_IDENTIFIER_1       0x1f
 #define GZIP_IDENTIFIER_2       0x8b

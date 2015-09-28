@@ -121,6 +121,9 @@
     <ClInclude Include="ssplit.h">
       <Filter>Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="adb_style.h">
+      <Filter>JunkBuster</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="actions.c">
@@ -209,6 +212,9 @@
     </ClCompile>
     <ClCompile Include="ssplit.c">
       <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="adb_style.c">
+      <Filter>JunkBuster</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
