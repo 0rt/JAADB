@@ -187,7 +187,7 @@
 * Allow filtering with scripts and programs.
 */
 //#define FEATURE_EXTERNAL_FILTERS 1
-// dindog not enable by default
+
 
 /*
 * Keep connections alive if possible.

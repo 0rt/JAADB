@@ -1,0 +1,16 @@
+cascade style is prefer. but should use action cascading pattern or attern cascding action?
+
+action
+url1
+url2
+url2
+list(file)
+
+
+or 
+url1
+action1
+action2
+action3
+
+Of course, there is seldom case that one pattern need multiple actions, even rare for action more than three. But since a proxy is connection requestion drive application, it will break down to url case in either way...
